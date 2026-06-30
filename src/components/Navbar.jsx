@@ -11,7 +11,7 @@ const Navbar = () => {
         <li><a href="#home">Contact</a></li>
         <li><a href="#home">Blog</a></li>
       </ul>
-      <button className="border-2 px-4 py-2 rounded">Get Started</button>
+      <button className="border-2 px-4 py-2 rounded cursor-pointer">Get Started</button>
       </div>
     </div>
   )

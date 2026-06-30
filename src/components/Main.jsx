@@ -1,4 +1,11 @@
 import mikrofon from '../assets/imgs/mikrofon.png'
+import amazon from '../assets/imgs/amazon.png'
+import dribbble from '../assets/imgs/dribble.png'
+import hubspot from '../assets/imgs/hubSpot.png'
+import notion from '../assets/imgs/notion.png'
+import netflix from '../assets/imgs/netflix.png'
+import zoom from '../assets/imgs/zoom.png'
+
 
 const Main = () => {
   return (
@@ -16,3 +23,29 @@ const Main = () => {
 }
 
 export default Main
+
+
+
+export const Logotips = () => {
+  return (
+    <div className="max-w-[1350px] w-full mx-auto flex justify-between mt-[80px] cursor-pointer">
+      <img src={amazon} alt="Amazon" />
+      <img src={dribbble} alt="Dribbble" />
+      <img src={hubspot} alt="HubSpot" />
+      <img src={notion} alt="Notion" />
+      <img src={netflix} alt="Netflix" />
+      <img src={zoom} alt="Zoom" />
+    </div>
+  )
+}
+
+
+
+export const Services = () => {
+  return (
+    <div className="max-w-[1350px] w-full mx-auto mt-[150px] flex gap-[50px] items-center" >
+        <button className="p-[10px] bg-[#B9FF66] text-[#191A23] font-bold text-4xl rounded-[8px]">Services</button>
+        <p className="text-[20px]">At our digital marketing agency, we offer a range of services to <br /> help businesses grow and succeed online. These services include:</p>
+    </div>
+  )
+}
