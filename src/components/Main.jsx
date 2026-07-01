@@ -49,3 +49,12 @@ export const Services = () => {
     </div>
   )
 }
+
+export const Case = () =>{
+  return(
+    <div className="max-w-[1350px] w-full mx-auto mt-[150px] flex gap-[50px] items-center">
+      <button className="p-[10px] bg-[#B9FF66] text-[#191A23] font-bold text-4xl rounded-[8px]">Case Studies</button>
+      <p className="text-[20px]">Explore Real-Life Examples of Our Proven Digital Marketing <br /> Success through Our Case Studies</p>
+    </div>
+  )
+}
